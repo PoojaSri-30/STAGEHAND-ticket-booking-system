@@ -4,6 +4,8 @@ A full-stack ticket booking platform for movies and concerts: visual seat maps,
 TTL-based seat holds with auto-release, sold-out waitlists with automatic
 seat re-assignment, and QR-coded email tickets.
 
+Live demo - https://stagehand-ticket-booking-system.vercel.app/
+
 ## 🛠️ Tech Stack
 
 ### Backend
