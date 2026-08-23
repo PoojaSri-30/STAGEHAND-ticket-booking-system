@@ -4,6 +4,39 @@ A full-stack ticket booking platform for movies and concerts: visual seat maps,
 TTL-based seat holds with auto-release, sold-out waitlists with automatic
 seat re-assignment, and QR-coded email tickets.
 
+## 🛠️ Tech Stack
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Tools & Deployment
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+### Key Libraries
+| Library | Purpose |
+|---|---|
+| `better-sqlite3` | Embedded SQLite database driver |
+| `bcryptjs` | Password hashing |
+| `jsonwebtoken` | Auth token signing/verification |
+| `nodemailer` | Email delivery (booking confirmations, waitlist offers) |
+| `qrcode` | QR code generation for tickets |
+| `ws` | WebSocket server for real-time seat map updates |
+| `react-router-dom` | Client-side routing |
+
 ```
 ticket-booking-system/
 ├── backend/     Node.js + Express API, SQLite database, WebSocket server
